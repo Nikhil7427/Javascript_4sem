@@ -123,7 +123,7 @@
 // }
 // class Motorcycle extends Vehicle {
 //     constructor(color,currentSpeed,maxSpeed,fuel){
-//         super(color,currentSpeed,maxSpeed);  // super word in the constructor used to call the parent class in child class
+//         super(color,currentSpeed,maxSpeed);  // super word in the constructor used to call the parent class in child class   /////////
 //         this.fuel = fuel;
 //     }
 //     doWheelie(){
@@ -137,7 +137,7 @@
 // motor.accelerate(50);
 // motor.move();
 
-// PROTOTYPE:
+// PROTOTYPE: we can add attribute and method later on.
 
 class Person{
     constructor(firstname,lastname){
@@ -155,4 +155,7 @@ Person.prototype.favColor="green";
 let p=new Person("maria","Saga");
 console.log(p.favColor);
 p.introduce();
+
+
+
 
