@@ -155,17 +155,14 @@
 // console.log(arr);
 // console.log(arr.length);
 
-const sparseArray=[1,,,4,5,,];
-console.log(sparseArray);
+// const sparseArray=[1,,,4,5,,];
+// console.log(sparseArray);
 
 // const person={
 //     firstName:"John",
 //     lastName:"Davis",
 //     age:30,
 // }
-const person={
-    firstName:"John",
-    ,
-    age:30,
-}
+
+
 
